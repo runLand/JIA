@@ -1,0 +1,430 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Journey into Abstraction - Mint</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="static/picture/11.png">
+	<!-- Favicons -->
+
+
+
+	<!-- Google font (font-family: 'Ubuntu', sans-serif;) -->
+	<link href="static/css/css.css" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="static/css/plugins.css">
+	<link rel="stylesheet" href="static/css/style.css">
+
+	<!-- Cusom css -->
+	<link rel="stylesheet" href="static/css/custom.css">
+
+	<!-- Modernizer js -->
+	<script src="static/js/modernizr-3.5.0.min.js"></script>
+	<script src="static/js/web3.min.js"></script>
+</head>
+
+<body>
+	<!--[if lte IE 9]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<div class="fakeloader"></div>
+
+	<!-- START WRAPPER -->
+	<div class="wrapper">
+
+		<!-- START HEADER AREA -->
+		<header id="header-area" class="header-area sticky-header">
+			<div class="header bg--white">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-12 order-3 col-lg-5 order-lg-1 col-md-12 col-sm-12 order-md-3 order-sm-3">
+							<!-- START MAIN NAVIGATION -->
+							<nav class="navbar navbar-expand-lg menu">
+								<button class="navbar-toggler" type="button" data-toggle="collapse"
+									data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false"
+									aria-label="Toggle navigation">
+									<span class="ti ti-menu"></span>
+								</button>
+								<div class="collapse navbar-collapse" id="main-navbar">
+									<ul class="navbar-nav mr-auto">
+										<li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+											<!-- <ul class="dropdown-menu">
+												<li class="dropdown-item"><a href="">Home Default</a></li>
+												<!-- <li class="dropdown-item"><a href="index-fixed-bg.html">Home Fixed Bg</a></li> -->
+											<!-- <li class="dropdown-item"><a href="index-parallax.html">Home Parallax</a></li> -->
+											<!-- <li class="dropdown-item"><a href="index-animate-heading.html">Home Animate Heading</a></li> -->
+											<!-- <li class="dropdown-item"><a href="index-modal-portfolio.html">Home Modal Portfolio</a></li> -->
+											<!-- </ul> -->
+										</li>
+										<li class="nav-item"><a class="nav-link" href="mint.html">Mint</a></li>
+
+										<li class="nav-item"><a class="nav-link" href="" title="coming Soon">Gallery</a>
+										</li>
+										<li class="nav-item"><a class="nav-link" href="about-us.html">about us</a></li>
+										
+										<!-- <li class="nav-item"><a class="nav-link" href="about-us.html">about us</a></li>
+										<li class="nav-item dropdown"><a class="nav-link" href="portfolio.html">portfolio</a>
+											<ul class="dropdown-menu">
+												<li class="dropdown-item"><a href="portfolio.html">Portfolio</a></li>
+												<li class="dropdown-item"><a href="portfolio-with-modal.html">Portfolio Modalview</a></li>
+												<li class="dropdown-item"><a href="portfolio-container.html">Portfolio Masonary</a></li>
+												<li class="dropdown-item"><a href="portfolio-container-with-modal.html">Portfolio Masonary Modalview</a></li>
+											</ul>
+										</li>
+										<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+											<ul class="dropdown-menu">
+												<li class="dropdown-item"><a href="blog-list.html">Blog List</a></li>
+												<li class="dropdown-item"><a href="blog-list-right-sidebar.html">Blog List Right Sidebar</a></li>
+												<li class="dropdown-item"><a href="blog-list-left-sidebar.html">Blog List Left Sidebar</a></li>
+												<li class="dropdown-item"><a href="blog-grid.html">Blog Grid</a></li>
+												<li class="dropdown-item"><a href="blog-grid-right-sidebar.html">Blog Grid Right Sidebar</a></li>
+												<li class="dropdown-item"><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+												<li class="dropdown-item"><a href="single-blog.html">Single Blog</a></li>
+											</ul>
+										</li>
+										<li class="nav-item"><a class="nav-link" href="contact.html">contact</a></li> -->
+									</ul>
+								</div>
+							</nav><!-- END MAIN NAVIGATION -->
+						</div>
+						
+					</div>
+				</div>
+				<div class="Account">
+					<div class="social-icons text-right">
+						<ul>
+							<!-- <li class="facebook"><a href="javascript:;"><span class="ti-facebook"></span></a></li> -->
+							<li class="twitter"><a href="https://twitter.com/AbstractionNFT_"><span
+										class="ti-twitter-alt"></span></a></li>
+							<!-- <li class="vimeo"><a href="javascript:;"><span class="ti-vimeo-alt"></span></a></li> -->
+							<!-- <li class="pinterest"><a href="javascript:;"><span class="ti-pinterest"></span></a></li> -->
+						</ul>
+					</div>
+					<a href="#" class="pt-button pt-button--grey" id="Connect">Connect Wallet</a>
+					<div class="info" style="display: none;">
+						<!-- <span id="Ether"></span> -->
+						<a href="#" class="pt-button pt-button--grey" id="adress"></a>
+						<!-- <a href="#" class="pt-button pt-button--grey" id="logout">logout</a> -->
+					</div>
+				</div>
+			</div>
+		</header><!-- END HEADER AREA -->
+
+
+
+		<!-- START MAIN CONTENT -->
+		<main class="main-content">
+
+			<!-- START ABOUT US AREA -->
+			<!-- <section id="about-area" class="pt-section about pt-120 bg--light-grey">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-12">
+							<div class="about__image">
+								<img src="static/picture/1.jpg" alt="about image">
+							</div>
+						</div>
+						<div class="col-lg-6 col-12">
+							<div class="about__content">
+								<h3 class="text-uppercase">photo tune photography best html template</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididun ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+								<p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repreh voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+								<img class="signature" src="static/picture/signature.png" alt="signature">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>END ABOUT US AREA -->
+
+			<!-- START PORTFOLIO AREA -->
+			<section id="portfolio-area" class="pt-section portfolio-area pt-120 bg--light-grey">
+
+			</section><!-- END PORTFOLIO AREA -->
+
+			<!-- START SERVICE AREA -->
+
+			<!-- START PIE AREA -->
+			<section id="pie-area" class="pt-section pie-area ptb-120 bg--1" data-black-overlay="9">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="pies" style="display: flex;justify-content: center;">
+								<div class="single__input">
+									<input name="count" type="text" value="1" oninput="value=value.replace(/[^\d]/g,'')"
+										placeholder="count" style="height: 48px;color: #000;">
+								</div>
+								<button id="Mint" class="pt-button pt-button--theme pt-button--lg">Mint</button>
+								<!-- START SINGLE PIE -->
+								<!-- <div class="pie">
+									<div class="pie-chart" data-percent="80" data-scale-color="#ffb400"><span>80%</span></div>
+									<div class="pie__content">
+										<h5 class="pie__title">Studio</h5>
+									</div> -->
+								<!-- </div>END SINGLE PIE -->
+								<!-- START SINGLE PIE -->
+								<!-- <div class="pie">
+									<div class="pie-chart" data-percent="70" data-scale-color="#ffb400"><span>70%</span></div>
+									<div class="pie__content">
+										<h5 class="pie__title">Shooting</h5>
+									</div>
+								</div>END SINGLE PIE -->
+								<!-- START SINGLE PIE -->
+								<!-- <div class="pie">
+									<div class="pie-chart" data-percent="75" data-scale-color="#ffb400"><span>75%</span></div>
+									<div class="pie__content">
+										<h5 class="pie__title">Editing</h5>
+									</div>
+								</div><!-- END SINGLE PIE -->
+								<!-- START SINGLE PIE -->
+								<!-- <div class="pie">
+									<div class="pie-chart" data-percent="90" data-scale-color="#ffb400"><span>90%</span></div>
+									<div class="pie__content">
+										<h5 class="pie__title">Printing</h5>
+									</div> -->
+								<!-- </div>END SINGLE PIE -->
+							</div>
+							<div class="pies" style="display: flex;justify-content: center;    flex-direction: column;
+							align-items: center;margin-top: 8px;">
+								<p>Total Supply: 998</p>
+								<p>Mint Price: 0.0069</p>
+								<p> Limit: 5/Wallet</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!-- END PIE AREA -->
+
+
+
+			<!-- START TESTIMONIAL PARTNERS AREA -->
+			<div class="pt-section testimonial-pertners-area bg--2">
+				<!-- START TESTIMONIAL AREA -->
+				<div class="testimonial-area ptb-120">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-10 offset-lg-1">
+								<div class="testimonials owl-carousel">
+									<!-- START SINGLE TESTIMONIAL -->
+									<article class="testimonial text-center">
+										<p class="testimonial__text">The painting has a life of its own. I try to let it
+											come through.</p>
+										<div class="testimonial__author">
+											<h4>Jackson Pollock</h4>
+											<!-- <h5><a href="">Photohub</a></h5> -->
+										</div>
+									</article><!-- END SINGLE TESTIMONIAL -->
+									<!-- START SINGLE TESTIMONIAL -->
+									<article class="testimonial text-center">
+										<p class="testimonial__text">Art is the expression of the innermost emotions of
+											man, as language is the expression of his thoughts.</p>
+										<div class="testimonial__author">
+											<h4>Wassily Kandinsky</h4>
+											<!-- <h5><a href="">HasTech</a></h5> -->
+										</div>
+									</article><!-- END SINGLE TESTIMONIAL -->
+									<!-- START SINGLE TESTIMONIAL -->
+									<article class="testimonial text-center">
+										<p class="testimonial__text">I'm not an abstractionist. I'm not interested in
+											the relationship between color and form or anything else. I'm interested
+											only in expressing basic human emotions.</p>
+										<div class="testimonial__author">
+											<h4>Mark Rothko</h4>
+											<!-- <h5><a href="">Photohub</a></h5> -->
+										</div>
+									</article><!-- END SINGLE TESTIMONIAL -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- END TESTIMONIAL AREA -->
+				<!-- START PARTNERS AREA -->
+				<div class="partners-area ptb-10" data-white-overlay="1">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="partners owl-carousel d-flex align-items-center">
+									<!-- <div class="partner text-center">
+										<a href=""><img src="static/picture/1.png" alt="partner"></a>
+									</div>
+									<div class="partner text-center">
+										<a href=""><img src="static/picture/2.png" alt="partner"></a>
+									</div>
+									<div class="partner text-center">
+										<a href=""><img src="static/picture/3.png" alt="partner"></a>
+									</div>
+									<div class="partner text-center">
+										<a href=""><img src="static/picture/4.png" alt="partner"></a>
+									</div>
+									<div class="partner text-center">
+										<a href=""><img src="static/picture/5.png" alt="partner"></a>
+									</div>
+									<div class="partner text-center">
+										<a href=""><img src="static/picture/1.png" alt="partner"></a>
+									</div>
+									<div class="partner text-center">
+										<a href=""><img src="static/picture/2.png" alt="partner"></a>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- END PARTNERS AREA -->
+			</div><!-- END TESTIMONIAL PARTNERS AREA -->
+
+			<!-- START TEAM AREA -->
+			<section id="team-area" class="pt-section team-area ptb-120 bg--light-grey">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+							<div class="section-title text-center">
+								<h2>Team <span>Member</span></h2>
+								<p>By owning our NFT, you will become the unique owner of a piece of artwork and may
+									even receive exclusive privileges and rewards. </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<!-- START TEAM MEMBER -->
+						<div class="col-lg-4 col-12 col-md-6 offset-md-0 col-sm-8 offset-sm-2">
+							<article class="team">
+								<div class="team__image">
+									<img src="static/picture/12.jpg" alt="team image">
+								</div>
+								<div class="team__content text-center">
+									<h4>Juan Pablo Soto</h4>
+									<div class="social-icons social-icons--white">
+										<ul>
+											<li class="facebook"><a href="javascript:;"><span
+														class="ti-facebook"></span></a></li>
+											<li class="twitter"><a href="https://twitter.com/AbstractionNFT_"><span
+														class="ti-twitter-alt"></span></a></li>
+											<li class="vimeo"><a href="javascript:;"><span
+														class="ti-vimeo-alt"></span></a></li>
+											<li class="pinterest"><a href="javascript:;"><span
+														class="ti-pinterest"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</article>
+						</div><!-- END TEAM MEMBER -->
+						<!-- START TEAM MEMBER -->
+						<div class="col-lg-4 col-12 col-md-6 offset-md-0 col-sm-8 offset-sm-2">
+							<article class="team">
+								<div class="team__image">
+									<img src="static/picture/21.jpg" alt="team image">
+								</div>
+								<div class="team__content text-center">
+									<h4>Patricia Ledesma</h4>
+									<div class="social-icons social-icons--white">
+										<ul>
+											<li class="facebook"><a href="javascript:;"><span
+														class="ti-facebook"></span></a></li>
+											<li class="twitter"><a href="https://twitter.com/AbstractionNFT_"><span
+														class="ti-twitter-alt"></span></a></li>
+											<li class="vimeo"><a href="javascript:;"><span
+														class="ti-vimeo-alt"></span></a></li>
+											<li class="pinterest"><a href="javascript:;"><span
+														class="ti-pinterest"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</article>
+						</div><!-- END TEAM MEMBER -->
+						<!-- START TEAM MEMBER -->
+						<div class="col-lg-4 col-12 col-md-6 offset-md-0 col-sm-8 offset-sm-2">
+							<article class="team">
+								<div class="team__image">
+									<img src="static/picture/31.jpg" alt="team image">
+								</div>
+								<div class="team__content text-center">
+									<h4>Thiago Leguizamon</h4>
+									<div class="social-icons social-icons--white">
+										<ul>
+											<li class="facebook"><a href="javascript:;"><span
+														class="ti-facebook"></span></a></li>
+											<li class="twitter"><a href="https://twitter.com/AbstractionNFT_"><span
+														class="ti-twitter-alt"></span></a></li>
+											<li class="vimeo"><a href="javascript:;"><span
+														class="ti-vimeo-alt"></span></a></li>
+											<li class="pinterest"><a href="javascript:;"><span
+														class="ti-pinterest"></span></a></li>
+										</ul>
+									</div>
+								</div>
+							</article>
+						</div><!-- END TEAM MEMBER -->
+					</div>
+				</div>
+			</section><!-- END TEAM AREA -->
+
+		</main><!-- END MAIN CONTENT -->
+
+		<!-- START FOOTER AREA -->
+		<footer id="footer" class="footer-area bg--dark-grey ptb-50">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="footer">
+							<div class="footer__copyright">
+								<div class="logo">
+									<!-- <a href=""><img src="static/picture/logo-2.png" alt="footer logo"></a> -->
+								</div>
+								<p class="footer__copyright__text">Copyright &copy; 2023.Journey into Abstraction All
+									rights reserved.</p>
+							</div>
+							<nav class="footer__menu text-center">
+								<ul>
+									<!-- <li><a href="">home</a></li>
+									<li><a href="about-us.html">about us</a></li>
+									<li><a href="portfolio.html">portfolio</a></li>
+									<li><a href="">pages</a></li>
+									<li><a href="contact.html">contact</a></li> -->
+								</ul>
+							</nav>
+							<div class="footer__contact">
+								<ul>
+									<li>Email :<a href="mailto:JiAbstraction@gmail.com"> JiAbstraction@gmail.com</a>
+									</li>
+									<!-- <li>Phone :<a href="javascript:;"> (+00) 012 032 21</a></li> -->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer><!-- END FOOTER AREA -->
+
+	</div><!-- END WRAPPER -->
+
+	<div class="sc-2ac39227-1 ZETDu overload" style="opacity: 0.5; background: rgb(7, 7, 7);"></div>
+	<div class="sc-2ac39227-0 ggfUzg modal-container" style="border-radius: 16px;max-width: 450px;">
+		<div class="wallet sc-31330529-0 cLwvNF">
+			<h1>Connect your wallet</h1>
+			<div class="sc-48d30bb6-0 eJMjmA">
+				<button class="sc-8bc14742-5 sc-48d30bb6-1 dnNsFT eQmgRH">
+					<img src="static/picture/metamask-flat.svg">
+					<span>Metamask</span>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- JS Files -->
+	<script src="static/js/jquery-3.2.1.min.js"></script>
+	<script src="static/js/popper.min.js"></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/plugins.js"></script>
+	<script src="static/js/active.js"></script>
+	<script src="static/js/scripts.js"></script>
+	<script src="static/js/slider-active.js"></script>
+	<script src="static/js/mint.js"></script>
+</body>
+
+</html>

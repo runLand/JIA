@@ -1,0 +1,57 @@
+/*********************************************************************************
+
+	Template Name: Photohub - Creative Photography Template 
+	Template URI: https://themeforest.net/user/plus-theme
+	Description: Photohub is a awesome, creative, and unique phptography template which mekes you build a beautiful template easily
+	Author: Plus-Theme
+	Author URI: https://hastech.company
+	Version: 1.2
+
+	Note: This is main css. All css files import here.
+
+**********************************************************************************/
+
+
+/*Basic styles*/
+@import url(reset.css);
+@import url(typography.css);
+@import url(spacing.css);
+@import url(helper-class.css);
+
+/*Elements*/
+@import url(section-title.css);
+@import url(button.css);
+@import url(social-icons.css);
+@import url(slider-elem-styles.css);
+@import url(breadcrumb.css);
+@import url(pagination.css);
+
+/*Blocks*/
+@import url(header.css);
+@import url(navigation.css);
+@import url(banner.css);
+@import url(about.css);
+@import url(portfolio.css);
+@import url(service.css);
+@import url(pie.css);
+@import url(pricebox.css);
+@import url(testimonial.css);
+@import url(team.css);
+@import url(process.css);
+@import url(contact.css);
+@import url(blog.css);
+@import url(blog-sidebar.css);
+@import url(single-blog.css);
+@import url(single-portfolio.css);
+@import url(modal.css);
+@import url(footer.css);
+
+
+
+
+/*Onepage*/
+@import url(header1.css);
+@import url(banner1.css);
+@import url(op-sidebar.css);
+@import url(main1.css);
+@import url(footer1.css);
